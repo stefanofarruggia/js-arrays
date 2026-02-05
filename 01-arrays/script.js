@@ -23,7 +23,7 @@ const lastTeacher = teachers.pop();
 console.log(lastTeacher)
 console.log(teachers)
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.splice(teachers[0], 1)
+const firstTeacher = teachers.splice(0, 1)
 console.log(firstTeacher)
 console.log(teachers)
 
@@ -42,5 +42,5 @@ console.log(lewisIndex)
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length
+const isTeachersEmpty = teachers.length == 0
 console.log(isTeachersEmpty)
